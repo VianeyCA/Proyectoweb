@@ -1,0 +1,16 @@
+@font-face {
+    font-family:Pecita;
+    src: url(Pecita.ttf);
+}
+
+body{
+    background-color: darkorchid;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Pecita';
+    color: white;
+}
+
+

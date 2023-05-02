@@ -1,0 +1,10 @@
+<?php
+session_start();
+$rol=$_SESSION["rol"];
+if($rol=="administrador"){
+    header("Location:admin.php");
+}
+else{
+    header("Location:Componentes/Inicio/index2.php");
+}
+?>         

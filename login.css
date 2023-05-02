@@ -1,0 +1,52 @@
+#principal{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#encabezado img{
+    width: 150px;
+    margin-bottom: 12px;
+}
+#formulario img{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+input{
+    width: 300px;
+    height: 45px;
+}
+input:focus{
+    border-color: aqua;
+    outline: 0 none;
+}
+input[type="button"]{
+    background-color: aqua;
+    border: 0px;
+    margin-top: 15px;
+    width: 310px;
+    border-radius: 7px;
+    color: white;
+}
+#formulario{
+    border: 1px solid gray;
+    background-color: rgb(250, 243, 243);
+}
+#f{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#f div{
+    width: 50%;
+}
+#f input{
+    height: 15px;
+    width: 10px;
+}
